@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    margin: 10px 0;
+}
+
+.todo-app {
+    flex: 1;
+}
+
+.todo-input {
+    margin-bottom: 20px;
+}
+
+.todo-text {
+    border: 1px solid #fff;
+}
+
+.todo-button {}
+
+.todo-output {}
+
+.todo-item {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 8px;
+}
+
+.destroy {}
+
+.update {}
